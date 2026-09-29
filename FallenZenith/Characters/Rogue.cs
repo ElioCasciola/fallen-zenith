@@ -1,9 +1,9 @@
-﻿using FinalQuest.Abilities;
+﻿using FallenZenith.Skills;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FinalQuest.Characters
+namespace FallenZenith.Characters
 {
     internal class Rogue : Character
     {
@@ -17,7 +17,7 @@ namespace FinalQuest.Characters
             DEF = 9;
             SPD = 20;
 
-            Abilities.Add(new Backstab());
+            Skills.Add(new Backstab());
         }
 
         public override CharacterClass Job

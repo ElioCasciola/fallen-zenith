@@ -1,10 +1,10 @@
-# Final Quest
+# Fallen Zenith
 
 A C# console dungeon crawler featuring turn-based combat, character progression, and permadeath.
 
 ## About
 
-Final Quest is a console-based fantasy game developed in C#.
+Fallen Zenith is a console-based fantasy game developed in C#.
 
 The player creates a character and ventures through a series of dungeons, fighting monsters and becoming stronger along the way. The goal is to survive the journey and complete the final dungeon.
 
@@ -35,7 +35,7 @@ If the character dies at any point, the run ends.
 - HP and MP management
 - Permanent death
 
-> Final Quest is currently under development. Features and game mechanics may change as development continues.
+> Fallen Zenith is currently under development. Features and game mechanics may change as development continues.
 
 ## Built With
 
@@ -64,7 +64,7 @@ This project is being used to practice and demonstrate concepts including:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ElioCasciola/final-quest.git
+git clone https://github.com/ElioCasciola/fallen-zenith.git
 ```
 
 2. Open the solution in Visual Studio.
@@ -75,7 +75,7 @@ git clone https://github.com/ElioCasciola/final-quest.git
 
 🚧 **In development**
 
-Final Quest is an ongoing project and will continue to evolve as new C# concepts and game mechanics are implemented.
+Fallen Zenith is an ongoing project and will continue to evolve as new C# concepts and game mechanics are implemented.
 
 ## Author
 

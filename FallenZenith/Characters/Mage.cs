@@ -1,6 +1,6 @@
-﻿using FinalQuest.Abilities;
+﻿using FallenZenith.Skills;
 
-namespace FinalQuest.Characters
+namespace FallenZenith.Characters
 {
     internal class Mage : Character
     {
@@ -14,7 +14,7 @@ namespace FinalQuest.Characters
             DEF = 6;
             SPD = 10;
 
-            Abilities.Add(new Fireball());
+            Skills.Add(new Fireball());
         }
 
         public override CharacterClass Job

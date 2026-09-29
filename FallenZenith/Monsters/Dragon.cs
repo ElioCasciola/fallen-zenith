@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FinalQuest.Monsters
+namespace FallenZenith.Monsters
 {
     internal class Dragon : Monster
     {

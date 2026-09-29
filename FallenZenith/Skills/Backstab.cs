@@ -1,8 +1,8 @@
-﻿using FinalQuest.Entities;
+﻿using FallenZenith.Entities;
 
-namespace FinalQuest.Abilities
+namespace FallenZenith.Skills
 {
-    internal class Backstab : Ability
+    internal class Backstab : Skill
     {
         public Backstab()
             : base("Backstab", "Strikes a weak point, ignoring half of the target's defense.", 10)

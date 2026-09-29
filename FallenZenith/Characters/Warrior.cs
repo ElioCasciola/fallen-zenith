@@ -1,9 +1,9 @@
-﻿using FinalQuest.Abilities;
+﻿using FallenZenith.Skills;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FinalQuest.Characters
+namespace FallenZenith.Characters
 {
     internal class Warrior : Character
     {
@@ -17,7 +17,7 @@ namespace FinalQuest.Characters
             DEF = 15;
             SPD = 8;
 
-            Abilities.Add(new PowerStrike());
+            Skills.Add(new PowerStrike());
         }
 
         public override CharacterClass Job

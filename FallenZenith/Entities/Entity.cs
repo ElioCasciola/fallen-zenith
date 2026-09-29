@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using FallenZenith.Skills;
 
-using FinalQuest.Abilities;
-
-namespace FinalQuest.Entities
+namespace FallenZenith.Entities
 {
     internal abstract class Entity
     {
@@ -15,7 +12,7 @@ namespace FinalQuest.Entities
         public int ATT { get; set; }
         public int DEF { get; set; }
         public int SPD { get; set; }
-        public List<Ability> Abilities { get; } = new List<Ability>();
+        public List<Skill> Skills { get; protected set; } = new();
 
         public bool IsDead => HP <= 0;
 

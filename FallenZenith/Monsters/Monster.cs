@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using FinalQuest.Entities;
+using FallenZenith.Entities;
 
-namespace FinalQuest.Monsters
+namespace FallenZenith.Monsters
 {
     internal abstract class Monster : Entity
     {

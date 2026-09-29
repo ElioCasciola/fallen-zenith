@@ -1,14 +1,14 @@
-﻿using FinalQuest.Entities;
+﻿using FallenZenith.Entities;
 
-namespace FinalQuest.Abilities
+namespace FallenZenith.Skills
 {
-    internal abstract class Ability
+    internal abstract class Skill
     {
         public string Name { get; }
         public string Description { get; }
         public int MPCost { get; }
 
-        protected Ability(string name, string description, int mpCost)
+        protected Skill(string name, string description, int mpCost)
         {
             Name = name;
             Description = description;

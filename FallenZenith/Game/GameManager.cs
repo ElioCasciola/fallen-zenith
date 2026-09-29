@@ -1,19 +1,19 @@
-﻿using FinalQuest.Characters;
-using FinalQuest.Monsters;
-using FinalQuest.Game;
+﻿using FallenZenith.Characters;
+using FallenZenith.Monsters;
+using FallenZenith.Game;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace FinalQuest.Game
+namespace FallenZenith.Game
 {
     internal class GameManager
     {
         public void Start()
         {
-            Console.WriteLine("=== FINAL QUEST ===");
+            Console.WriteLine("=== FALLEN ZENITH ===");
             Console.WriteLine("What's your name?");
             string name = Console.ReadLine();
             Console.Clear();

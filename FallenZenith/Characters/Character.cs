@@ -1,7 +1,7 @@
 ﻿using System;
-using FinalQuest.Entities;
+using FallenZenith.Entities;
 
-namespace FinalQuest.Characters
+namespace FallenZenith.Characters
 {
     
 

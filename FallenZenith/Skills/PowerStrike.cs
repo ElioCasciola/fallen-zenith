@@ -1,8 +1,8 @@
-﻿using FinalQuest.Entities;
+﻿using FallenZenith.Entities;
 
-namespace FinalQuest.Abilities
+namespace FallenZenith.Skills
 {
-    internal class PowerStrike : Ability
+    internal class PowerStrike : Skill
     {
         public PowerStrike()
             : base("Power Strike", "Delivers a powerful strike with double attack power.", 10)

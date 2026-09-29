@@ -1,7 +1,7 @@
-﻿using FinalQuest.Characters;
-using FinalQuest.Game;
+﻿using FallenZenith.Characters;
+using FallenZenith.Game;
 
-namespace FinalQuest
+namespace FallenZenith
 {
     internal class Program
     {

@@ -1,8 +1,8 @@
-﻿using FinalQuest.Entities;
+﻿using FallenZenith.Entities;
 
-namespace FinalQuest.Abilities
+namespace FallenZenith.Skills
 {
-    internal class Fireball : Ability
+    internal class Fireball : Skill
     {
         public Fireball()
             : base("Fireball", "Launches a powerful ball of fire", 15) 

@@ -1,9 +1,9 @@
-﻿using FinalQuest.Characters;
-using FinalQuest.Entities;
-using FinalQuest.Monsters;
-using FinalQuest.Abilities;
+﻿using FallenZenith.Characters;
+using FallenZenith.Entities;
+using FallenZenith.Monsters;
+using FallenZenith.Skills;
 
-namespace FinalQuest.Game
+namespace FallenZenith.Game
 {
     internal class BattleManager
     {
@@ -78,18 +78,18 @@ namespace FinalQuest.Game
             Console.WriteLine(new string('=', 40));
             Console.WriteLine();
         }
-        private void ShowAbilityMenu(Entity user)
+        private void ShowSkillMenu(Entity user)
         {
-            Console.WriteLine("=== ABILITIES ===");
+            Console.WriteLine("=== SKILLS ===");
 
-            for (int i = 0; i < user.Abilities.Count; i++)
+            for (int i = 0; i < user.Skills.Count; i++)
             {
-                Ability ability = user.Abilities[i];
+                Skill skill = user.Skills[i];
 
                 Console.WriteLine(
-                    $"{i + 1} - {ability.Name} ({ability.MPCost} MP)");
+                    $"{i + 1} - {skill.Name} ({skill.MPCost} MP)");
 
-                Console.WriteLine($"    {ability.Description}");
+                Console.WriteLine($"    {skill.Description}");
             }
 
             Console.WriteLine("0 - Back");
@@ -174,11 +174,11 @@ namespace FinalQuest.Game
                         break;
 
                    case "3":
-                        ShowAbilityMenu(player);
+                        ShowSkillMenu(player);
 
-                        string abilityChoice = Console.ReadLine();
-                        bool isValidNumber = int.TryParse(abilityChoice, out int abilityNumber);
-
+                        string skillChoice = Console.ReadLine();
+                        bool isValidNumber = int.TryParse(skillChoice, out int skillNumber);
+                        
                         break;
                         
                 }
