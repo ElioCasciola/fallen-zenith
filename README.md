@@ -1,12 +1,12 @@
 # Fallen Zenith
 
-A C# console dungeon crawler featuring turn-based combat, character progression, and permadeath.
+A C# console RGP: turn-based combat, character progression, and permadeath.
 
 ## About
 
 Fallen Zenith is a console-based fantasy game developed in C#.
 
-The player creates a character and ventures through a series of dungeons, fighting monsters and becoming stronger along the way. The goal is to survive the journey and complete the final dungeon.
+The player creates a character and ventures through a series of floors, fighting monsters and becoming stronger along the way. The goal is to survive the journey and defeat the final boss.
 
 Death is permanent: if the character dies, the run is over.
 
@@ -20,7 +20,7 @@ A typical run follows this progression:
 2. Enter a dungeon
 3. Fight enemies in turn-based battles
 4. Progress and improve your character
-5. Complete increasingly challenging dungeons
+5. Complete increasingly challenging floors(levels)
 6. Reach and complete the final dungeon
 
 If the character dies at any point, the run ends.
@@ -31,19 +31,10 @@ If the character dies at any point, the run ends.
 - Character classes and statistics
 - Turn-based combat
 - Monsters with different attributes
-- Attack and defend actions
+- Attack action
 - HP and MP management
-- Permanent death
 
 > Fallen Zenith is currently under development. Features and game mechanics may change as development continues.
-
-## Built With
-
-- C#
-- .NET
-- Object-Oriented Programming (OOP)
-- Visual Studio
-- Git
 
 ## Project Goals
 
