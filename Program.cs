@@ -1,1 +1,5 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using FallenZenith.Presentation;
+
+
+var consoleUI = new ConsoleUI();
+consoleUI.ShowMainMenu();
