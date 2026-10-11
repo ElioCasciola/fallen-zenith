@@ -3,7 +3,8 @@ namespace FallenZenith.Presentation;
 public class ConsoleUI
 {
     public void ShowMainMenu()
-    {   string mainMenuChoice ="";
+    {
+        string? mainMenuChoice = "";
 
         do
         {
@@ -12,21 +13,21 @@ public class ConsoleUI
             Console.WriteLine("2. Exit Game");
             mainMenuChoice = Console.ReadLine();
 
-            switch(mainMenuChoice)
+            switch (mainMenuChoice)
             {
                 case "1":
                     Console.WriteLine("Starting game...");
-                    // Add logic to start the game
+
                     break;
                 case "2":
                     Console.WriteLine("Exiting game...");
                     // Add logic to exit the game
                     return;
                 default:
-                        Console.WriteLine("Invalid choice. Please try again.");
-                        break;
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
             }
-        } while(mainMenuChoice !="1" && mainMenuChoice!="2");
+        } while (mainMenuChoice != "1" && mainMenuChoice != "2");
 
     }
 }
