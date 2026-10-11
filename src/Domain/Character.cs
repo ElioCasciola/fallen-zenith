@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace FallenZenith.Domain;
 
 public class Character

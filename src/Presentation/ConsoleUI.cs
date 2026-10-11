@@ -30,4 +30,20 @@ public class ConsoleUI
         } while (mainMenuChoice != "1" && mainMenuChoice != "2");
 
     }
+
+    public void ShowFirstTurn(bool playerFirst)
+    {
+        if(playerFirst)
+        {
+            Console.WriteLine("Player Moves First");
+            Console.WriteLine("Enemy Moves Second");
+        }
+        else
+        {
+            Console.WriteLine("Enemy Moves First");
+            Console.WriteLine("Player Moves Second");
+        }
+    }
+
+
 }
