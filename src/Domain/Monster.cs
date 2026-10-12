@@ -7,7 +7,9 @@ public class Monster
     public int MaxHP { get; private set; }
     public int MP { get; private set; }
     public int MaxMP { get; private set; }
+    public int PhysicalAttack { get; private set; }
     public int Strength { get; private set; }
+    public int MagicalAttack { get; private set; }
     public int Intelligence { get; private set; }
     public int Defense { get; private set; }
     public int MagicDefense { get; private set; }
@@ -20,7 +22,9 @@ public class Monster
         string name,
         int hp, int maxHP,
         int mp, int maxMP,
+        int physicalattack,
         int strength,
+        int magicalattack,
         int intelligence,
         int defense,
         int magicDefense,
@@ -34,7 +38,9 @@ public class Monster
         MaxHP = maxHP;
         MP = mp;
         MaxMP = maxMP;
+        PhysicalAttack = physicalattack;
         Strength = strength;
+        MagicalAttack = magicalattack;
         Intelligence = intelligence;
         Defense = defense;
         MagicDefense = magicDefense;
@@ -43,4 +49,22 @@ public class Monster
         Level = level;
         Skills = skills;
     }
+
+    public void TakeDamage(int damage)
+    {
+        if(damage <= 0)
+        {
+            return;
+        }
+        else
+        {
+            HP -= damage;
+        }
+
+        if(HP<0)
+        {
+            HP = 0;
+        }
+    }
+
 }
